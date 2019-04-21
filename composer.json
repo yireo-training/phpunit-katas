@@ -1,0 +1,23 @@
+{
+  "name": "yireo-training/phpunit-katas",
+  "description": "Educational project for writing tests with PHPUnit",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jisse Reitsma",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "require": {
+    "yireo-training/phpunit-kata-example": "@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "repositories": {
+    "katas": {
+      "type": "path",
+      "url": "packages/yireo-training/*"
+    }
+  }
+}
