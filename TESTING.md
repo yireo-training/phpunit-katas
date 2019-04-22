@@ -56,4 +56,19 @@ Once this is done, you should be able to select this task using **Run > Run...**
 This already works. However, we can improve things a little bit. Once you add more sources, or if you want to make the setup process easier, a `phpunit.xml` file is easier:
 
 ```xml
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.0/phpunit.xsd"
+        bootstrap="vendor/autoload.php"
+        colors="true">
+    <testsuites>
+        <testsuite name="PHPUnit Katas">
+            <directory>packages/yireo-training/phpunit-kata-example/test/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
 ```
+
+Next, under **Run > Edit Configurations** add a new configuration for **PHPUnit**. The name is something you can choose yourself, but here, we'll be assuming the name `PHPUnit Kata`. Under **Test Runner**, select as **Test Scope** the option **Defined in the configuration file**. If the configuration file is not detected right away, you can either fix this in the global PHPUnit configuration or use the option **Use alternative configuration file** and point it to your new `phpunit.xml`.
+
+Repeat the test to make sure it works.

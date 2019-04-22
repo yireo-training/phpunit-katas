@@ -1,0 +1,16 @@
+{
+  "name": "yireo-training/phpunit-vat-validator",
+  "description": "PHPUnit Kata to play with the EU VAT validator",
+  "type": "composer",
+  "authors": [
+    {
+      "name": "Jisse Reitsma",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yireo\\KataVatValidator\\": "src/"
+    }
+  }
+}

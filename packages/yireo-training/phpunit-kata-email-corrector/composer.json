@@ -1,0 +1,16 @@
+{
+  "name": "yireo-training/phpunit-kata-email-corrector",
+  "description": "PHPUnit Kata to automatically correct wrong email addresses",
+  "type": "composer",
+  "authors": [
+    {
+      "name": "Jisse Reitsma",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yireo\\KataEmailCorrector\\": "src/"
+    }
+  }
+}
