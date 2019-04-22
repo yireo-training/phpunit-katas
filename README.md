@@ -17,3 +17,10 @@ Once the application is running, start testing it: Follow the instructions in [T
 Besides the `phpunit-kata-example` package, there are various (empty) packages, each laying down a certain goal - see the `README.md` per package. There is also `composer.json` in the package, so you can install the package to `vendor`. However, the PHP classes are still to be created by you. 
 
 To achieve this goal, use TDD (*Red-Green-Refactor*): First, a test is written that fails (because the code doesn't exist yet): *Red*. Next, the code is written to make sure the basic functionality is there: *Green*. Next, refactor the code, so that possible smaller units are created (that require more tests) or the logic is enhanced: *Refactor*.
+
+## Suggested flow
+- `example`
+- `roman-numerics`
+- `email-corrector`
+- `refactoring-mailer`
+- `vat-validator`
