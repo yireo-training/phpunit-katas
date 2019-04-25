@@ -7,3 +7,10 @@ Create a custom class, that allows calling upon the package to validate a VAT nu
 - Throw exceptions when things are not valid;
 - If a VAT number starts with `GR` (Greece), correct it to be `EL`;
 - If a UK number, starting with `GB`, is validated after October 31st 2019, give a proper Brexit response; 
+
+## Install
+Install the composer package via the following command:
+
+    composer require yireo-training/phpunit-kata-vat-validator:@dev
+
+ 

@@ -10,4 +10,11 @@ An email address like `johndoe@hotmail.co` could be validated in the following w
 Correction could occur in the following ways:
 
 - Loop through possible TLDs and match `.co` as closely as possible;
-- Use a hard-coded list of commons domains that frequently spelled in a wrong way; 
+- Use a hard-coded list of commons domains that frequently spelled in a wrong way;
+
+## Install
+Install the composer package via the following command:
+
+    composer require yireo-training/phpunit-kata-email-corrector:@dev
+
+ 

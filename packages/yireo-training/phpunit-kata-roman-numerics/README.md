@@ -11,3 +11,8 @@ For reference,  the following numbers are used:
 - `D` = 500
 - `M` = 1000
 
+## Install
+Install the composer package via the following command:
+
+    composer require yireo-training/phpunit-kata-roman-numerics:@dev
+

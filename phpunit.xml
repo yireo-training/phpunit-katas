@@ -5,7 +5,10 @@
         colors="true">
     <testsuites>
         <testsuite name="PHPUnit Katas">
+            <!--
             <directory>packages/yireo-training/phpunit-kata-example/test/</directory>
+            -->
+            <directory>packages/yireo-training/phpunit-kata-roman-numerics/test/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

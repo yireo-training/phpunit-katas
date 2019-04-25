@@ -10,3 +10,9 @@ Other refactoring ideas:
 - Add `declare(strict_types)`;
 - Create enough setter-methods to modify things;
 - Implement the `phpunit-kata-email-corrector`;
+
+## Install
+Install the composer package via the following command:
+
+    composer require yireo-training/phpunit-kata-refactoring-mailer:@dev
+
