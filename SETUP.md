@@ -83,6 +83,8 @@ The application is running now.
 ## Preparation for testing
 To make sure we are ready for the next step - testing - we'll install PHPUnit version 8.0 or higher:
 
-    composer require phpunit/phpunit:^8.0 --dev
+    composer require phpunit/phpunit --dev
     
+To a minimum, you will need PHPUnit 6 because that ships with namespaced classes.
+
 Done.
